@@ -1,0 +1,8 @@
+build/
+dist/
+*.html
+test*
+**/__pycache__/**
+venv/
+*spec
+*.exe
