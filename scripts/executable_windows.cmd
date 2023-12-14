@@ -13,7 +13,7 @@ move .\dist\%NAME%.exe .\tests\%NAME%.exe
 echo y | rmdir /s dist
 xcopy .\src .\tests\src /e /i /Y
 copy .\app_conf.yaml .\tests\app_conf.yaml
-.\tests\%NAME%.exe
+@REM .\tests\%NAME%.exe
 endlocal
 
 popd
